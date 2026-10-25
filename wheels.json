@@ -1,0 +1,362 @@
+[
+ {
+  "file": "torch-2.2.1+cu121-cp310-cp310-linux_aarch64.whl",
+  "key": "pytorch/v2.2.1/arm64_cu121/torch-2.2.1+cu121-cp310-cp310-linux_aarch64.whl",
+  "sha256": "3fbaf91f58a705cacb045b7825642bb93528e60e4acc1a5169fd5215e30c5010",
+  "project": "torch",
+  "version": "2.2.1+cu121",
+  "python": "cp310",
+  "torch_release": "v2.2.1",
+  "sm_75": true
+ },
+ {
+  "file": "torchaudio-2.2.1+cu121-cp310-cp310-linux_aarch64.whl",
+  "key": "pytorch/v2.2.1/arm64_cu121/torchaudio-2.2.1+cu121-cp310-cp310-linux_aarch64.whl",
+  "sha256": "a123ad4bfc5a06361f8c20206ba6689bb4cebc0b9b514d74abbf5a5ec0aa8a19",
+  "project": "torchaudio",
+  "version": "2.2.1+cu121",
+  "python": "cp310",
+  "torch_release": "v2.2.1",
+  "sm_75": true
+ },
+ {
+  "file": "torchvision-0.17.1+cu121-cp310-cp310-linux_aarch64.whl",
+  "key": "pytorch/v2.2.1/arm64_cu121/torchvision-0.17.1+cu121-cp310-cp310-linux_aarch64.whl",
+  "sha256": "ca52e5a1fcc9d7446f51d10a9c111b6ec64c2e3a26988ebac71f9d19fcba016c",
+  "project": "torchvision",
+  "version": "0.17.1+cu121",
+  "python": "cp310",
+  "torch_release": "v2.2.1",
+  "sm_75": true
+ },
+ {
+  "file": "torch-2.3.0+cu121-cp311-cp311-linux_aarch64.whl",
+  "key": "pytorch/v2.3.0/arm64_cu121/torch-2.3.0+cu121-cp311-cp311-linux_aarch64.whl",
+  "sha256": "5ac6ac505a0f4697375a65b1e3dc3f1385e2ecd817a684cf226478e49d6ee76f",
+  "project": "torch",
+  "version": "2.3.0+cu121",
+  "python": "cp311",
+  "torch_release": "v2.3.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchaudio-2.3.0+cu121-cp311-cp311-linux_aarch64.whl",
+  "key": "pytorch/v2.3.0/arm64_cu121/torchaudio-2.3.0+cu121-cp311-cp311-linux_aarch64.whl",
+  "sha256": "a5129d843150f45bdb32d823a29ec416db93bb95f8ec493aa9b718ca6b1ecd1b",
+  "project": "torchaudio",
+  "version": "2.3.0+cu121",
+  "python": "cp311",
+  "torch_release": "v2.3.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchvision-0.18.0+cu121-cp311-cp311-linux_aarch64.whl",
+  "key": "pytorch/v2.3.0/arm64_cu121/torchvision-0.18.0+cu121-cp311-cp311-linux_aarch64.whl",
+  "sha256": "ec3e653c367c2b5509300fe8b4ddc49804a44336d226815e3416af1172d77c27",
+  "project": "torchvision",
+  "version": "0.18.0+cu121",
+  "python": "cp311",
+  "torch_release": "v2.3.0",
+  "sm_75": true
+ },
+ {
+  "file": "torch-2.4.0+cu124-cp311-cp311-linux_aarch64.whl",
+  "key": "pytorch/v2.4.0/arm64/cu124/torch-2.4.0+cu124-cp311-cp311-linux_aarch64.whl",
+  "sha256": "c0df2a8a340fbd8b9fa7b94bae1bcde7dab02ac4bce78460277424d9d2d2fca4",
+  "project": "torch",
+  "version": "2.4.0+cu124",
+  "python": "cp311",
+  "torch_release": "v2.4.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchaudio-2.4.0+cu124-cp311-cp311-linux_aarch64.whl",
+  "key": "pytorch/v2.4.0/arm64/cu124/torchaudio-2.4.0+cu124-cp311-cp311-linux_aarch64.whl",
+  "sha256": "4aeb94c661af1cf10d1366ba1a9ab0aa759b4ad6a49329e1aca22610d9d90386",
+  "project": "torchaudio",
+  "version": "2.4.0+cu124",
+  "python": "cp311",
+  "torch_release": "v2.4.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchvision-0.19.0+cu124-cp311-cp311-linux_aarch64.whl",
+  "key": "pytorch/v2.4.0/arm64/cu124/torchvision-0.19.0+cu124-cp311-cp311-linux_aarch64.whl",
+  "sha256": "c36caccfe15c18277111cd8d3e4aa11a4debced31bb33d5084cccd87e42245d1",
+  "project": "torchvision",
+  "version": "0.19.0+cu124",
+  "python": "cp311",
+  "torch_release": "v2.4.0",
+  "sm_75": true
+ },
+ {
+  "file": "torch-2.5.1+cu124-cp311-cp311-linux_aarch64.whl",
+  "key": "pytorch/v2.5.1/arm64/cu124/torch-2.5.1+cu124-cp311-cp311-linux_aarch64.whl",
+  "sha256": "1b4bcf3dad520e8f9a70f7a023b31de0799c35528f0ca4b5ac599bc16ccd2f42",
+  "project": "torch",
+  "version": "2.5.1+cu124",
+  "python": "cp311",
+  "torch_release": "v2.5.1",
+  "sm_75": true
+ },
+ {
+  "file": "torchaudio-2.5.1+cu124-cp311-cp311-linux_aarch64.whl",
+  "key": "pytorch/v2.5.1/arm64/cu124/torchaudio-2.5.1+cu124-cp311-cp311-linux_aarch64.whl",
+  "sha256": "dbf0880f7954f5467ded649e7f53eeb955d65cf3dc97164d974aaf1a04bc92c8",
+  "project": "torchaudio",
+  "version": "2.5.1+cu124",
+  "python": "cp311",
+  "torch_release": "v2.5.1",
+  "sm_75": true
+ },
+ {
+  "file": "torchvision-0.20.1+cu124-cp311-cp311-linux_aarch64.whl",
+  "key": "pytorch/v2.5.1/arm64/cu124/torchvision-0.20.1+cu124-cp311-cp311-linux_aarch64.whl",
+  "sha256": "5088bbbd1e93dd904fe3c9d11e395e54bbbe5171e35d316fd1ba742f12bec4fe",
+  "project": "torchvision",
+  "version": "0.20.1+cu124",
+  "python": "cp311",
+  "torch_release": "v2.5.1",
+  "sm_75": true
+ },
+ {
+  "file": "torch-2.6.0+cu124-cp312-cp312-linux_aarch64.whl",
+  "key": "pytorch/v2.6.0/arm64/cu124/torch-2.6.0+cu124-cp312-cp312-linux_aarch64.whl",
+  "sha256": "7ceb21ea17be419bbfac953d0fd036d32f74c06a2e4062ed091b1c4ba5b6a85e",
+  "project": "torch",
+  "version": "2.6.0+cu124",
+  "python": "cp312",
+  "torch_release": "v2.6.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchaudio-2.6.0+cu124-cp312-cp312-linux_aarch64.whl",
+  "key": "pytorch/v2.6.0/arm64/cu124/torchaudio-2.6.0+cu124-cp312-cp312-linux_aarch64.whl",
+  "sha256": "964e1ae111dd373cb8d4272054ed1f96cb9c88bdcadc557d829730ee674f3b54",
+  "project": "torchaudio",
+  "version": "2.6.0+cu124",
+  "python": "cp312",
+  "torch_release": "v2.6.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchvision-0.21.0+cu124-cp312-cp312-linux_aarch64.whl",
+  "key": "pytorch/v2.6.0/arm64/cu124/torchvision-0.21.0+cu124-cp312-cp312-linux_aarch64.whl",
+  "sha256": "ef5bcb8039f97f769dec08dd314cb311d6ad166ed7044579ac39ebfd79394a87",
+  "project": "torchvision",
+  "version": "0.21.0+cu124",
+  "python": "cp312",
+  "torch_release": "v2.6.0",
+  "sm_75": true
+ },
+ {
+  "file": "torch-2.6.0+cu126-cp312-cp312-linux_aarch64.whl",
+  "key": "pytorch/v2.6.0/arm64/cu126/torch-2.6.0+cu126-cp312-cp312-linux_aarch64.whl",
+  "sha256": "b104d162a57e1d95c535c4c9da7baa034f4523a6043453f9e8d32f4034f079b0",
+  "project": "torch",
+  "version": "2.6.0+cu126",
+  "python": "cp312",
+  "torch_release": "v2.6.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchaudio-2.6.0+cu126-cp312-cp312-linux_aarch64.whl",
+  "key": "pytorch/v2.6.0/arm64/cu126/torchaudio-2.6.0+cu126-cp312-cp312-linux_aarch64.whl",
+  "sha256": "16067bda589cf14d262d5cf52b880d108090b4e5388f380b619b83e9e2aa61cd",
+  "project": "torchaudio",
+  "version": "2.6.0+cu126",
+  "python": "cp312",
+  "torch_release": "v2.6.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchvision-0.21.0+cu126-cp312-cp312-linux_aarch64.whl",
+  "key": "pytorch/v2.6.0/arm64/cu126/torchvision-0.21.0+cu126-cp312-cp312-linux_aarch64.whl",
+  "sha256": "f2f162ebcbdaf705fad83c64a0b5168448979281774f2ca9dbaed1c93df35666",
+  "project": "torchvision",
+  "version": "0.21.0+cu126",
+  "python": "cp312",
+  "torch_release": "v2.6.0",
+  "sm_75": true
+ },
+ {
+  "file": "torch-2.7.0+cu128-cp312-cp312-manylinux_2_28_aarch64.whl",
+  "key": "pytorch/v2.7.0/arm64/cu128/torch-2.7.0+cu128-cp312-cp312-manylinux_2_28_aarch64.whl",
+  "sha256": "f14ada6fc2338fd74012c72cb9820a1f563319d1693fe19d0af8153654bca081",
+  "project": "torch",
+  "version": "2.7.0+cu128",
+  "python": "cp312",
+  "torch_release": "v2.7.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchaudio-2.7.0+cu128-cp312-cp312-linux_aarch64.whl",
+  "key": "pytorch/v2.7.0/arm64/cu128/torchaudio-2.7.0+cu128-cp312-cp312-linux_aarch64.whl",
+  "sha256": "94ef91c31d8d19326fd7ed394712c765dbef1e4dd33b637286a4daf14df99251",
+  "project": "torchaudio",
+  "version": "2.7.0+cu128",
+  "python": "cp312",
+  "torch_release": "v2.7.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchvision-0.22.0+cu128-cp312-cp312-linux_aarch64.whl",
+  "key": "pytorch/v2.7.0/arm64/cu128/torchvision-0.22.0+cu128-cp312-cp312-linux_aarch64.whl",
+  "sha256": "64c10b32fa249c90a82bbabba70bab74d415b5080475cb3fb1b110ee057a3958",
+  "project": "torchvision",
+  "version": "0.22.0+cu128",
+  "python": "cp312",
+  "torch_release": "v2.7.0",
+  "sm_75": true
+ },
+ {
+  "file": "torch-2.8.0+cu129-cp312-cp312-manylinux_2_28_aarch64.whl",
+  "key": "pytorch/v2.8.0/arm64/cu129/torch-2.8.0+cu129-cp312-cp312-manylinux_2_28_aarch64.whl",
+  "sha256": "2d2a1fbbee25c8942a594820b93e188ecba659cc8a902daf654aeccf7070832d",
+  "project": "torch",
+  "version": "2.8.0+cu129",
+  "python": "cp312",
+  "torch_release": "v2.8.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchaudio-2.8.0+cu129-cp312-cp312-linux_aarch64.whl",
+  "key": "pytorch/v2.8.0/arm64/cu129/torchaudio-2.8.0+cu129-cp312-cp312-linux_aarch64.whl",
+  "sha256": "a87d2a099b856faae8ae17db4bc4cc45ce86343c73299cdae762c65f554aed4a",
+  "project": "torchaudio",
+  "version": "2.8.0+cu129",
+  "python": "cp312",
+  "torch_release": "v2.8.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchvision-0.23.0+cu129-cp312-cp312-linux_aarch64.whl",
+  "key": "pytorch/v2.8.0/arm64/cu129/torchvision-0.23.0+cu129-cp312-cp312-linux_aarch64.whl",
+  "sha256": "c1ad5111c5cc741d7b9f5fd401b11ed418d90706c2241acb4d7edc2ebdd4c2f7",
+  "project": "torchvision",
+  "version": "0.23.0+cu129",
+  "python": "cp312",
+  "torch_release": "v2.8.0",
+  "sm_75": true
+ },
+ {
+  "file": "torch-2.9.0+cu130-cp312-cp312-manylinux_2_28_aarch64.whl",
+  "key": "pytorch/v2.9.0/arm64/cu130/torch-2.9.0+cu130-cp312-cp312-manylinux_2_28_aarch64.whl",
+  "sha256": "72f5817b57cfa2804c3bc0900347faf577617ed205ba6bc4889ad5de1f125bc4",
+  "project": "torch",
+  "version": "2.9.0+cu130",
+  "python": "cp312",
+  "torch_release": "v2.9.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchaudio-2.9.0+cu130-cp312-cp312-linux_aarch64.whl",
+  "key": "pytorch/v2.9.0/arm64/cu130/torchaudio-2.9.0+cu130-cp312-cp312-linux_aarch64.whl",
+  "sha256": "559a8602846cd701327bf8cc96599de831a74653f27d3209f8b6eb207b66c377",
+  "project": "torchaudio",
+  "version": "2.9.0+cu130",
+  "python": "cp312",
+  "torch_release": "v2.9.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchvision-0.24.0+cu130-cp312-cp312-linux_aarch64.whl",
+  "key": "pytorch/v2.9.0/arm64/cu130/torchvision-0.24.0+cu130-cp312-cp312-linux_aarch64.whl",
+  "sha256": "4e924998edc90831add15d7ea4b432c2293bf2b2d1131fdec37e97b18801731c",
+  "project": "torchvision",
+  "version": "0.24.0+cu130",
+  "python": "cp312",
+  "torch_release": "v2.9.0",
+  "sm_75": true
+ },
+ {
+  "file": "torch-2.10.0+cu130-cp313-cp313-manylinux_2_28_aarch64.whl",
+  "key": "pytorch/v2.10.0/arm64/cu130/torch-2.10.0+cu130-cp313-cp313-manylinux_2_28_aarch64.whl",
+  "sha256": "43d8f6549617f6c032ee6e222de36be956bd0f884906e4910d6067a2360822d7",
+  "project": "torch",
+  "version": "2.10.0+cu130",
+  "python": "cp313",
+  "torch_release": "v2.10.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchaudio-2.10.0+cu130-cp313-cp313-linux_aarch64.whl",
+  "key": "pytorch/v2.10.0/arm64/cu130/torchaudio-2.10.0+cu130-cp313-cp313-linux_aarch64.whl",
+  "sha256": "b7b28618c6f324bb8c79961f30c125e39214e2810db69ca561a1e626170648fa",
+  "project": "torchaudio",
+  "version": "2.10.0+cu130",
+  "python": "cp313",
+  "torch_release": "v2.10.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchvision-0.25.0+cu130-cp313-cp313-linux_aarch64.whl",
+  "key": "pytorch/v2.10.0/arm64/cu130/torchvision-0.25.0+cu130-cp313-cp313-linux_aarch64.whl",
+  "sha256": "aef2098540ba75d602526d96ee8191c27c5536dde30417f2acc49579d3378b2f",
+  "project": "torchvision",
+  "version": "0.25.0+cu130",
+  "python": "cp313",
+  "torch_release": "v2.10.0",
+  "sm_75": true
+ },
+ {
+  "file": "torch-2.11.0+cu130-cp313-cp313-manylinux_2_28_aarch64.whl",
+  "key": "pytorch/v2.11.0/arm64/cu130/torch-2.11.0+cu130-cp313-cp313-manylinux_2_28_aarch64.whl",
+  "sha256": "556e854302c22112ff4078503abe06c56a5689cc7dd86f960f087dee84900abb",
+  "project": "torch",
+  "version": "2.11.0+cu130",
+  "python": "cp313",
+  "torch_release": "v2.11.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchaudio-2.11.0+cu130-cp313-cp313-linux_aarch64.whl",
+  "key": "pytorch/v2.11.0/arm64/cu130/torchaudio-2.11.0+cu130-cp313-cp313-linux_aarch64.whl",
+  "sha256": "c72ba4a9fd9e2e1a7bb69e6dbe18ebe219acf18a663b1f39a8c682b3020e3f00",
+  "project": "torchaudio",
+  "version": "2.11.0+cu130",
+  "python": "cp313",
+  "torch_release": "v2.11.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchvision-0.26.0+cu130-cp313-cp313-linux_aarch64.whl",
+  "key": "pytorch/v2.11.0/arm64/cu130/torchvision-0.26.0+cu130-cp313-cp313-linux_aarch64.whl",
+  "sha256": "a99d1c5785bba6a148c767c96aaaa332ab829c920750987fa9f995f4539efb8a",
+  "project": "torchvision",
+  "version": "0.26.0+cu130",
+  "python": "cp313",
+  "torch_release": "v2.11.0",
+  "sm_75": true
+ },
+ {
+  "file": "torch-2.12.0+cu132-cp313-cp313-manylinux_2_28_aarch64.whl",
+  "key": "pytorch/v2.12.0/arm64/cu132/torch-2.12.0+cu132-cp313-cp313-manylinux_2_28_aarch64.whl",
+  "sha256": "c2e827988918316d5cd262a2965d18dc7a91acd2c708f77487d3914abc7dbcc4",
+  "project": "torch",
+  "version": "2.12.0+cu132",
+  "python": "cp313",
+  "torch_release": "v2.12.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchaudio-2.11.0+cu132-cp313-cp313-linux_aarch64.whl",
+  "key": "pytorch/v2.12.0/arm64/cu132/torchaudio-2.11.0+cu132-cp313-cp313-linux_aarch64.whl",
+  "sha256": "0e8bec9811b119b0ee82e88e2b60f57aa4e41d909f7a8596c120d73b86355cf9",
+  "project": "torchaudio",
+  "version": "2.11.0+cu132",
+  "python": "cp313",
+  "torch_release": "v2.12.0",
+  "sm_75": true
+ },
+ {
+  "file": "torchvision-0.27.0+cu132-cp313-cp313-linux_aarch64.whl",
+  "key": "pytorch/v2.12.0/arm64/cu132/torchvision-0.27.0+cu132-cp313-cp313-linux_aarch64.whl",
+  "sha256": "6be89092ba7122b1eab0b45d1a304fe58ff51c7df21c2c950188342baf70aac6",
+  "project": "torchvision",
+  "version": "0.27.0+cu132",
+  "python": "cp313",
+  "torch_release": "v2.12.0",
+  "sm_75": true
+ }
+]
