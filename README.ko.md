@@ -100,13 +100,18 @@ python3 tools/check_cuda_arch.py torch-2.12.0+cu132-cp313-cp313-manylinux_2_28_a
 |---|---|---|
 | 공식 `torch-2.14.1+cu130` aarch64 | 없음 (`sm_80 sm_90 sm_100 sm_103 sm_110 sm_120 sm_121`) | ❌ `no kernel image is available` |
 | 공식 `torch-2.11.0+cu130` aarch64 | 없음 | — |
-<!-- VERIFY -->
+| **이 인덱스** `torch-2.12.0+cu132` (+ `torchvision-0.27.0`, `torchaudio-2.11.0`) | **있음** | ✅ GPU에서 fp16 matmul, conv2d, softmax, torchvision `nms`, torchaudio `lowpass_biquad` |
+| **이 인덱스** `torch-2.11.0+cu130` | **있음** | ✅ ([vllm-arm-t4g](https://github.com/moduvoice/vllm-arm-t4g)에서 사용, 2026-06) |
+| **이 인덱스**, 표의 나머지 버전 | **있음** | GPU 실행은 안 함 (커널 검사만) |
+
+시험 환경: `g5g.2xlarge`, NVIDIA T4G, 드라이버 595.91, Ubuntu 24.04 arm64, Python 3.13.
 
 휠별 결과(모든 라이브러리, sha256)는 [`wheels.json`](wheels.json)에 있고,
 `tools/build_index.py`가 이것으로 `docs/simple/` 인덱스를 다시 만듭니다.
 
 ## 참고
 
+- **CUDA 13 휠(`cu130`, `cu132`)은 NVIDIA 드라이버 580 계열 이상이 필요합니다.** 드라이버가 오래됐으면 `cu12x` 휠을 고르세요.
 - **Turing에는 bf16 네이티브 지원이 없습니다.** 모델은 `float16`으로 올리세요.
 - FlashAttention 2/3는 `sm_80+`가 필요합니다. T4G에서는 Turing을 지원하는 백엔드를 쓰세요.
 - `g5g`에서 vLLM은 짝 저장소 [vllm-arm-t4g](https://github.com/moduvoice/vllm-arm-t4g)를 보세요.

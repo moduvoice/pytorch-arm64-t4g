@@ -105,13 +105,18 @@ Results (2026-10-25):
 |---|---|---|
 | official `torch-2.14.1+cu130` aarch64 | no (`sm_80 sm_90 sm_100 sm_103 sm_110 sm_120 sm_121`) | ❌ `no kernel image is available` |
 | official `torch-2.11.0+cu130` aarch64 | no | — |
-<!-- VERIFY -->
+| **this index** `torch-2.12.0+cu132` (+ `torchvision-0.27.0`, `torchaudio-2.11.0`) | **yes** | ✅ fp16 matmul, conv2d, softmax, torchvision `nms`, torchaudio `lowpass_biquad` on GPU |
+| **this index** `torch-2.11.0+cu130` | **yes** | ✅ (used by [vllm-arm-t4g](https://github.com/moduvoice/vllm-arm-t4g), 2026-06) |
+| **this index**, all other versions in the table | **yes** | not run on a GPU (kernel check only) |
+
+Test machine: `g5g.2xlarge`, NVIDIA T4G, driver 595.91, Ubuntu 24.04 arm64, Python 3.13.
 
 The per-wheel results (all libraries, sha256) are in [`wheels.json`](wheels.json).
 `tools/build_index.py` regenerates the index in `docs/simple/` from it.
 
 ## Notes
 
+- **CUDA 13 wheels (`cu130`, `cu132`) need an NVIDIA driver from the 580 series or newer.** On an older driver, pick a `cu12x` wheel.
 - **Turing has no native bf16.** Load models in `float16`.
 - FlashAttention 2/3 need `sm_80+`; on a T4G use backends that support Turing.
 - For vLLM on `g5g`, see the companion recipe [vllm-arm-t4g](https://github.com/moduvoice/vllm-arm-t4g).
